@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Mi primer formulario</title>
+    <title>Mi primer formulario cvs</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
 <body>
