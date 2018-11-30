@@ -1,0 +1,36 @@
+.titulo{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputs{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.boton{
+    background-color: blue;
+    color: white;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton :hover{
+    cursor: pointer;
+}
+.titulo2{
+    color: blue;
+}
+.page-header{
+
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
