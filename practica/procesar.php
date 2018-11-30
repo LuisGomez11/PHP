@@ -18,18 +18,20 @@
 
               if (isset($_POST['submit'])) {
                   $nom = $_POST['nombre'];
+                  $edad = $_POST['edad'];
+                  $leng = $_POST['leng'];
                 if (strlen($_POST['nombre']) > 0) {
                     echo "El nombre ingresado es: ",$nom;
                 } else {
                     header ("location: index.php");
                 }
                 if (strlen($_POST['edad']) > 0) {
-                    echo "La edad ingresada es: $_POST['edad']";
+                    echo "La edad ingresada es: ",$edad;
                 } else {
                     header ("location: index.php");
                 }
                 if (strlen($_POST['leng']) > 0) {
-                    #echo "El lenguaje ingresado es: $_POST['leng']";
+                    echo "El lenguaje ingresado es: ",$leng;
                 } else {
                     header ("location: index.php");
                 }
