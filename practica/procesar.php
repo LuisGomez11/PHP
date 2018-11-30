@@ -16,6 +16,7 @@
 
             <?php
 
+                # MODIFICADO
               if (isset($_POST['submit'])) {
                   $nom = $_POST['nombre'];
                   $edad = $_POST['edad'];
