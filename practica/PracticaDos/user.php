@@ -2,11 +2,8 @@
 
 session_start();
 
-if (isset($_SESSION['username'])) {
-    echo "Bienvenido, ", $_SESSION['username'];
-} else {
-    echo "No tiene acceso";
-}
+include 'funciones.php';
+verificar_sesion();
 
 ?>
 
@@ -18,6 +15,20 @@ if (isset($_SESSION['username'])) {
 
 </head>
 <body>
-    Contenido
+    
+<div class="cotainer">
+
+<div class="row">
+
+<div class="col-md-8">
+
+    <a href="destroy.php">Salir</a>
+
+</div>
+
+</div>
+
+</div>
+
 </body>
 </html>
