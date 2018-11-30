@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Formulario</title>
+    <title>Mi primer formulario</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
 <body>
