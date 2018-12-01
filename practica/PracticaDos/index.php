@@ -14,7 +14,7 @@
         <div class="formulario">
             <h3 class="titulo2">Ingrese sus datos</h3>
             <input type="text" placeholder="Usuario" name="usuario" class="inputs" required autofocus><br>
-            <input type="password" placeholder="Contrasela" name="contraseña" class="inputs" required><br><br>
+            <input type="password" placeholder="Contraseña" name="contraseña" class="inputs" required><br><br>
             <input type="submit" name="submit" value="ENVIAR" class="boton">
         </div>
     </form>
