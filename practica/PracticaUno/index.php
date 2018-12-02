@@ -7,7 +7,7 @@
     <title>Registro</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
-<body>
+<body class="body">
     <div class="titulo">
         <h2>Formulario Html - Php </h2><span>Luis Gomez</span>
     </div>

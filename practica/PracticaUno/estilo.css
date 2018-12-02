@@ -1,3 +1,7 @@
+
+.body{
+    background-color: aquamarine;
+}
 .titulo{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -5,6 +9,7 @@
 .formulario{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .inputs{
