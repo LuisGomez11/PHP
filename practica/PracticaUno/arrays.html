@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Arrays</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <script>
+    
+        var nombres = new Array("Luis","Diana","Laura");
+    
+    </script>
+
+</head>
+<body style="color:yellow; background-color: blue; font-size: 30px;">
+
+    <script>
+        
+        /*
+
+        push = agregar al final
+        unshift = agregar al comienzo
+        shift = eliminar el primer elemento
+        pop = eliminar el ultimo elemento
+
+        */
+       
+        document.write("<p> El primer nombre es <strong>");
+        
+        document.write(nombres[0]+"</strong></p>");
+
+        nombres.unshift("Paola");
+
+        document.write("Se añadio un nuevo nombre");
+
+        document.write("<p> Ahora el primer nombre es <strong>");
+        
+        document.write(nombres[0]+"</strong></p>");
+
+        nombres.push(prompt("Intruduce un nombre"));
+
+        document.write("<p> Ahora el ultimo nombre es <strong>");
+        
+        document.write(nombres[nombres.length - 1]+"</strong></p>");
+        
+    </script>
+    
+</body>
+</html>
